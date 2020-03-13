@@ -18,15 +18,15 @@ SET _FILE=Path.txt
 SET _KEY="HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment"
 
 FOR /F "usebackq tokens=2*" %%A IN (`REG QUERY %_KEY% /v PATH`) DO (
-	SET CurrPath=%%B
+	SET _CURRENT_PATH=%%B
 )
 
-IF EXIST %_PATH%Backup GOTO BACKUPDIR
+IF EXIST %_PATH%Backup GOTO BACKUP_DIR
 	mkdir %_PATH%Backup
-:BACKUPDIR
+:BACKUP_DIR
 
 (
-	FOR %%A IN ("%CurrPath:;=" "%") DO (
+	FOR %%A IN ("%_CURRENT_PATH:;=" "%") DO (
 		ECHO(%%~A
 	)
 ) > "%_PATH%Backup\%_BACKUP%"
@@ -39,7 +39,7 @@ FOR /F "eol=# tokens=*" %%A IN (%_PATH%%_FILE%) DO (
 	@ECHO %Cyan%Переменная: %Green%%%A%Cyan%
 )
 
-SETX PATH "%CurrPath%";%_MASS% /M
+SETX PATH "%_CURRENT_PATH%";%_MASS% /M
 ECHO.
 
 echo %Cyan%Переменные среды: %Green%Установлено%Cyan%

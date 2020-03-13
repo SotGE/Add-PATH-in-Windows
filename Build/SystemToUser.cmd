@@ -13,8 +13,8 @@ set Green=[32m
 SetLocal EnableExtensions EnableDelayedExpansion
 
 SET _PATH=%~dp0
-SET _BACKUP=UserToSystem.txt
-SET _KEY="HKCU\Environment"
+SET _BACKUP=SystemToUser.txt
+SET _KEY="HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment"
 
 FOR /F "usebackq tokens=2*" %%A IN (`REG QUERY %_KEY% /v PATH`) DO (
 	SET _CURRENT_PATH=%%B
@@ -30,7 +30,7 @@ IF EXIST %_PATH%Backup GOTO BACKUP_DIR
 	)
 ) > "%_PATH%Backup\%_BACKUP%"
 
-SETX PATH "%_CURRENT_PATH%" /M
+SETX PATH "%_CURRENT_PATH%"
 ECHO.
 
 echo %Cyan%Переменные среды: %Green%Установлено%Cyan%
