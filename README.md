@@ -78,6 +78,32 @@ Add paths to Windows environment variables PATH line by line from the TXT file.
 > * Создается бекап (Backup/UserDelete.txt) переменные среды пользователя.
 >
 > <br/>
+>
+> **AddSystemUser.cmd**
+>
+> * Запуск от имени администратора (AddSystemUser.cmd).
+> * Добавить все пути из файла (Path.txt) в системные переменные и переменные среды пользователя.
+> * Создается бекап (Backup/AddSystem.txt) системные переменные.
+> * Создается бекап (Backup/AddUser.txt) переменные среды пользователя.
+>
+> <br/>
+>
+> **BackupSystemUser.cmd**
+>
+> * Запуск от имени администратора (BackupSystemUser.cmd).
+> * Создается бекап (Backup/BackupSystem.txt) системные переменные.
+> * Создается бекап (Backup/BackupUser.txt) переменные среды пользователя.
+>
+> <br/>
+>
+> **DeleteSystemUser.cmd**
+>
+> * Запуск от имени администратора (DeleteSystemUser.cmd).
+> * Удалить все пути из файла (Path.txt) в системные переменные и переменные среды пользователя.
+> * Создается бекап (Backup/DeleteSystem.txt) системные переменные.
+> * Создается бекап (Backup/DeleteUser.txt) переменные среды пользователя.
+>
+> <br/>
 
 ### `English`
 
@@ -144,6 +170,32 @@ Write the paths for the environment variable line by line to a file (**Path.txt*
 > * Run as administrator (UserDelete.cmd).
 > * Delete all paths from the file (Path.txt) to user environment variables.
 > * Creates a backup (Backup/UserDelete.txt) user environment variables.
+>
+> <br/>
+>
+> **AddSystemUser.cmd**
+>
+> * Run as administrator (AddSystemUser.cmd).
+> * Add all paths from the file (Path.txt) to system variables and user environment variables.
+> * Creates a backup (Backup/AddSystem.txt) system variables.
+> * Creates a backup (Backup/AddUser.txt) user environment variables.
+>
+> <br/>
+>
+> **BackupSystemUser.cmd**
+>
+> * Run as administrator (BackupSystemUser.cmd).
+> * Creates a backup (Backup/BackupSystem.txt) system variables.
+> * Creates a backup (Backup/BackupUser.txt) user environment variables.
+>
+> <br/>
+>
+> **DeleteSystemUser.cmd**
+>
+> * Run as administrator (DeleteSystemUser.cmd).
+> * Delete all paths from the file (Path.txt) to system variables and user environment variables.
+> * Creates a backup (Backup/DeleteSystem.txt) system variables.
+> * Creates a backup (Backup/DeleteUser.txt) user environment variables.
 >
 > <br/>
 
