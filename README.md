@@ -14,6 +14,6 @@ Telegram: [@SotGE](https://t.me/sotge)
 
 Licensing
 ---------
-Project code is available under the Apache License 2.0.
+Project code is available under the Apache License 2.0
 
-For more information, see [license agreement](LICENSE.md).
+For more information, see [license agreement](LICENSE)
