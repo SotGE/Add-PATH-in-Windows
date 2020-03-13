@@ -1,5 +1,7 @@
 
-# Add PATH in Windows
+<p align="center">
+	# Add PATH in Windows
+</p>
 
 ### `Russian`
 Добавить пути в Windows переменные среды PATH из построчно файла TXT.
@@ -64,11 +66,13 @@ Write the paths for the environment variable line by line to a file (**Path.txt*
 <br/>
 
 ## System requirements
+
 Windows
 
 <br/>
 
 ## Contacts
+
 Site: [sotge.ru](https://sotge.ru  "SotGE")
 
 E-Mail: <sotge@hotmail.com>
@@ -78,6 +82,7 @@ Telegram: [@SotGE](https://t.me/sotge)
 <br/>
 
 ## Licensing
+
 Project code is available under the Apache License 2.0
 
 For more information, see [license agreement](LICENSE)
