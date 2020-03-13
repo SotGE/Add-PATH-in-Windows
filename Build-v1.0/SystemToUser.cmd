@@ -38,7 +38,7 @@ echo ---------------------------------
 echo.
 
 echo.
-echo COMMAND: Path folder
+echo COMMAND: Current Folder
 echo STATUS: %_COLOR_GREEN%%_PATH%%_COLOR_CYAN%
 echo.
 
@@ -62,7 +62,7 @@ if exist "%_PATH%Backup" goto BACKUP_DIR
 ) > "%_PATH%Backup\%_BACKUP%"
 
 echo.
-echo COMMAND: Backup file (%_BACKUP%)
+echo COMMAND: System Backup File (%_BACKUP%)
 echo STATUS: %_COLOR_GREEN%%_PATH%Backup\%_BACKUP%%_COLOR_CYAN%
 echo.
 
@@ -74,7 +74,7 @@ for /f "usebackq eol=# tokens=2,*" %%A in (`REG QUERY %_KEY_NEW% /v PATH`) do (
 )
 
 echo.
-echo COMMAND: User PATH Current
+echo COMMAND: User PATH Update
 echo STATUS: %_COLOR_GREEN%%_CURRENT_PATH_NEW%%_COLOR_CYAN%
 echo.
 
