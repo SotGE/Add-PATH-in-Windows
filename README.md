@@ -29,6 +29,7 @@ Add paths to Windows environment variables PATH from a line-by-line TXT file.
 >
 > * Запуск от имени администратора (SystemToUser.cmd).
 > * Перенос всех путей из системные переменные в переменные среды пользователя.
+> * Создается бекап (Backup/SystemToUser.txt).
 >
 > <br/>
 >
@@ -44,6 +45,7 @@ Add paths to Windows environment variables PATH from a line-by-line TXT file.
 >
 > * Запуск от имени администратора (UserToSystem.cmd).
 > * Перенос всех путей из переменные среды пользователя в системные переменные.
+> * Создается бекап (Backup/UserToSystem.txt).
 >
 > <br/>
 
@@ -65,6 +67,7 @@ Write the paths for the environment variable line by line to a file (**Path.txt*
 >
 > * Run as administrator (SystemToUser.cmd).
 > * The transfer of all the paths of system variables in the user variables.
+> * Creates a backup (Backup/SystemToUser.txt).
 >
 > <br/>
 >
@@ -80,6 +83,7 @@ Write the paths for the environment variable line by line to a file (**Path.txt*
 >
 > * Run as administrator (UserToSystem.cmd).
 > * The transfer of all the paths of user variables in the system variables.
+> * Creates a backup (Backup/UserToSystem.txt).
 >
 > <br/>
 
