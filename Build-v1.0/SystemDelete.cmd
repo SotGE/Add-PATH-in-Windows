@@ -71,6 +71,11 @@ echo COMMAND: System Backup File (%_BACKUP%)
 echo STATUS: %_COLOR_GREEN%%_PATH%Backup\%_BACKUP%%_COLOR_CYAN%
 echo.
 
+echo.
+if exist "%_PATH%%_FILE%" goto FILE
+	copy nul "%_PATH%%_FILE%"
+:FILE
+
 for /f "usebackq eol=# tokens=*" %%A in ("%_PATH%%_FILE%") do (
 	set _MASS=!_MASS!%%A;
 	
