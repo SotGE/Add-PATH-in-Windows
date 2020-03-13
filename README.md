@@ -1,7 +1,5 @@
 
-<p align="center">
-	# Add PATH in Windows
-</p>
+# <p align="center">Add PATH in Windows</p>
 
 ### `Russian`
 Добавить пути в Windows переменные среды PATH из построчно файла TXT.
