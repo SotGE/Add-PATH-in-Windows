@@ -1,0 +1,4 @@
+D:\WindowsJS\node
+D:\WindowsJS\nwjs
+D:\WindowsJS\Git\bin
+D:\WindowsJS\resource_hacker
