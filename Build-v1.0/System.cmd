@@ -1,12 +1,12 @@
 
-rem Product: Add PATH in Windows
+rem Product: Add path in Windows
 rem Version: 1.0
 
 rem Developer: SotGE
 rem Author: Maksim E. Sorokin
 rem Site: https://sotge.ru
 
-rem GitHub: https://github.com/SotGE/Add-PATH-in-Windows
+rem GitHub: https://github.com/SotGE/Add-path-in-Windows
 
 @echo off
 chcp 65001 > nul
@@ -19,35 +19,35 @@ set Green=[32m
 
 SetLocal EnableExtensions EnableDelayedExpansion
 
-SET _PATH=%~dp0
-SET _BACKUP=System.txt
-SET _FILE=Path.txt
-SET _KEY="HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment"
+set _PATH=%~dp0
+set _BACKUP=System.txt
+set _FILE=Path.txt
+set _KEY="HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment"
 
-FOR /F "usebackq tokens=2*" %%A IN (`REG QUERY %_KEY% /v PATH`) DO (
-	SET _CURRENT_PATH=%%B
+for /F "usebackq tokens=2*" %%A in (`REG QUERY %_KEY% /v path`) do (
+	set _CURRENT_PATH=%%B
 )
 
-IF EXIST %_PATH%Backup GOTO BACKUP_DIR
+if exist %_PATH%Backup goto BACKUP_DIR
 	mkdir %_PATH%Backup
 :BACKUP_DIR
 
 (
-	FOR %%A IN ("%_CURRENT_PATH:;=" "%") DO (
-		ECHO(%%~A
+	for %%A in ("%_CURRENT_PATH:;=" "%") do (
+		echo(%%~A
 	)
 ) > "%_PATH%Backup\%_BACKUP%"
 
-ECHO %Cyan%Файл: %Green%%_PATH%%_FILE%%Cyan%
-ECHO.
+echo %Cyan%Файл: %Green%%_PATH%%_FILE%%Cyan%
+echo.
 
-FOR /F "eol=# tokens=*" %%A IN (%_PATH%%_FILE%) DO (
-	SET _MASS=!_MASS!%%A;
-	@ECHO %Cyan%Переменная: %Green%%%A%Cyan%
+for /F "eol=# tokens=*" %%A in (%_PATH%%_FILE%) do (
+	set _MASS=!_MASS!%%A;
+	@echo %Cyan%Переменная: %Green%%%A%Cyan%
 )
 
-SETX PATH "%_CURRENT_PATH%";%_MASS% /M
-ECHO.
+setx path "%_CURRENT_PATH%";%_MASS% /M
+echo.
 
 echo %Cyan%Переменные среды: %Green%Установлено%Cyan%
 echo.
