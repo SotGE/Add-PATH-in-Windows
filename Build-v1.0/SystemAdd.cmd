@@ -13,20 +13,20 @@ rem GitHub: https://github.com/SotGE/Add-path-in-Windows
 SetLocal EnableExtensions EnableDelayedExpansion
 
 chcp 65001 > nul
-title User variables
+title System variables Add
 setlocal
 cls
 
-set _TITLE=User variables
+set _TITLE=System variables Add
 
 set _COLOR_CYAN=[36m
 set _COLOR_RED=[31m
 set _COLOR_GREEN=[32m
 
 set _PATH=%~dp0
-set _BACKUP=User.txt
+set _BACKUP=SystemAdd.txt
 set _FILE=Path.txt
-set _KEY="HKCU\Environment"
+set _KEY="HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment"
 
 echo. %_COLOR_CYAN%
 echo.
@@ -80,7 +80,7 @@ for /f "usebackq eol=# tokens=*" %%A in ("%_PATH%%_FILE%") do (
 	echo.
 )
 
-setx path "%_CURRENT_PATH%%_MASS%"
+setx /m path "%_CURRENT_PATH%%_MASS%"
 echo.
 
 echo.

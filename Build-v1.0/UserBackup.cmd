@@ -13,11 +13,11 @@ rem GitHub: https://github.com/SotGE/Add-path-in-Windows
 SetLocal EnableExtensions EnableDelayedExpansion
 
 chcp 65001 > nul
-title User Backup
+title User variables Backup
 setlocal
 cls
 
-set _TITLE=User Backup
+set _TITLE=User variables Backup
 
 set _COLOR_CYAN=[36m
 set _COLOR_RED=[31m
