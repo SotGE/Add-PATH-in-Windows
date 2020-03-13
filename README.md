@@ -7,6 +7,7 @@
 ### `English`
 Add paths to Windows environment variables PATH from a line-by-line TXT file.
 
+<br/>
 
 ## Installation
 
@@ -60,10 +61,12 @@ Write the paths for the environment variable line by line to a file (**Path.txt*
 > * Run as administrator (UserToSystem.cmd).
 > * The transfer of all the paths of user variables in the system variables.
 
+<br/>
 
 ## System requirements
 Windows
 
+<br/>
 
 ## Contacts
 Site: [sotge.ru](https://sotge.ru  "SotGE")
@@ -72,6 +75,7 @@ E-Mail: <sotge@hotmail.com>
 
 Telegram: [@SotGE](https://t.me/sotge)
 
+<br/>
 
 ## Licensing
 Project code is available under the Apache License 2.0
