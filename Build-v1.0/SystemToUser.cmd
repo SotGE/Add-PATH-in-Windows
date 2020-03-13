@@ -9,26 +9,54 @@ rem Site: https://sotge.ru
 rem GitHub: https://github.com/SotGE/Add-path-in-Windows
 
 @echo off
-chcp 65001 > nul
-title Переменные среды
-setlocal
-cls
-set Cyan=[36m
-set Red=[31m
-set Green=[32m
 
 SetLocal EnableExtensions EnableDelayedExpansion
+
+chcp 65001 > nul
+title System variables to User variables 
+setlocal
+cls
+
+set _TITLE=System variables to User variables
+
+set _COLOR_CYAN=[36m
+set _COLOR_RED=[31m
+set _COLOR_GREEN=[32m
 
 set _PATH=%~dp0
 set _BACKUP=SystemToUser.txt
 set _KEY="HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment"
 
-for /F "usebackq tokens=2*" %%A in (`REG QUERY %_KEY% /v path`) do (
+echo. %_COLOR_CYAN%
+echo.
+echo %_TITLE%
+echo.
+
+echo.
+echo ---------------------------------
+echo.
+
+echo.
+echo COMMAND: Path folder
+echo STATUS: %_COLOR_GREEN%%_PATH%%_COLOR_CYAN%
+echo.
+
+echo.
+echo COMMAND: Path file (%_FILE%)
+echo STATUS: %_COLOR_GREEN%%_PATH%%_FILE%%_COLOR_CYAN%
+echo.
+
+for /f "usebackq eol=# tokens=2,*" %%A in (`REG QUERY %_KEY% /v PATH`) do (
 	set _CURRENT_PATH=%%B
 )
 
-if exist %_PATH%Backup goto BACKUP_DIR
-	mkdir %_PATH%Backup
+echo.
+echo COMMAND: PATH Current
+echo STATUS: %_COLOR_GREEN%%_CURRENT_PATH%%_COLOR_CYAN%
+echo.
+
+if exist "%_PATH%Backup" goto BACKUP_DIR
+	mkdir "%_PATH%Backup"
 :BACKUP_DIR
 
 (
@@ -37,10 +65,30 @@ if exist %_PATH%Backup goto BACKUP_DIR
 	)
 ) > "%_PATH%Backup\%_BACKUP%"
 
+echo.
+echo COMMAND: Backup file (%_BACKUP%)
+echo STATUS: %_COLOR_GREEN%%_PATH%Backup\%_BACKUP%%_COLOR_CYAN%
+echo.
+
 setx path "%_CURRENT_PATH%"
 echo.
 
-echo %Cyan%Переменные среды: %Green%Установлено%Cyan%
 echo.
-echo Для выхода нажмите любую клавишу.
+echo COMMAND: PATH Update
+echo STATUS: %_COLOR_GREEN%%_CURRENT_PATH%%_MASS%%_COLOR_CYAN%
+echo.
+
+echo.
+echo COMMAND: %_TITLE%
+echo STATUS: %_COLOR_GREEN%Installed%_COLOR_CYAN%
+echo.
+
+echo.
+echo ---------------------------------
+echo.
+
+echo.
+echo Press any key to exit.
+echo.
+
 pause >nul & cls & exit
