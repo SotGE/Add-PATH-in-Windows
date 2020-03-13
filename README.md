@@ -17,11 +17,11 @@ Add paths to Windows environment variables PATH line by line from the TXT file.
 
 > <br/>
 >
-> **System.cmd**
+> **SystemAdd.cmd**
 >
-> * Запуск от имени администратора (System.cmd).
+> * Запуск от имени администратора (SystemAdd.cmd).
 > * Добавить все пути из файла (Path.txt) в системные переменные.
-> * Создается бекап (Backup/System.txt).
+> * Создается бекап (Backup/SystemAdd.txt).
 >
 > <br/>
 >
@@ -40,11 +40,11 @@ Add paths to Windows environment variables PATH line by line from the TXT file.
 >
 > <br/>
 >
-> **User.cmd**
+> **UserAdd.cmd**
 >
-> * Запуск от имени администратора (User.cmd).
+> * Запуск от имени администратора (UserAdd.cmd).
 > * Добавить все пути из файла (Path.txt) в переменные среды пользователя.
-> * Создается бекап (Backup/User.txt).
+> * Создается бекап (Backup/UserAdd.txt).
 >
 > <br/>
 >
@@ -69,11 +69,11 @@ Write the paths for the environment variable line by line to a file (**Path.txt*
 
 > <br/>
 >
-> **System.cmd**
+> **SystemAdd.cmd**
 >
-> * Run as administrator (System.cmd).
+> * Run as administrator (SystemAdd.cmd).
 > * Add all paths from the file (Path.txt) to system variables.
-> * Creates a backup (Backup/System.txt).
+> * Creates a backup (Backup/SystemAdd.txt).
 >
 > <br/>
 >
@@ -94,11 +94,11 @@ Write the paths for the environment variable line by line to a file (**Path.txt*
 >
 > <br/>
 >
-> **User.cmd**
+> **UserAdd.cmd**
 >
-> * Run as administrator (User.cmd).
+> * Run as administrator (UserAdd.cmd).
 > * Add all paths from the file (Path.txt) to user environment variables.
-> * Creates a backup (Backup/User.txt).
+> * Creates a backup (Backup/UserAdd.txt).
 >
 > <br/>
 >
