@@ -1,14 +1,30 @@
 # Add PATH in Windows
+<<<<<<< HEAD
 
 #### RUSSIAN
 Добавить пути в Windows переменные среды PATH из построчно файла TXT.
 
 #### ENGLISH
+=======
+===
+
+#### RUSSIAN
+-------------------------
+Добавить пути в Windows переменные среды PATH из построчно файла TXT.
+
+
+#### ENGLISH
+-------------------------
+>>>>>>> 091f25aa967a3af7b4e399879fb4d40ffdee767f
 Add paths to Windows environment variables PATH from a line-by-line TXT file.
 
 ## Installation
 
 #### RUSSIAN
+<<<<<<< HEAD
+=======
+-------------------------
+>>>>>>> 091f25aa967a3af7b4e399879fb4d40ffdee767f
 Построчно записать пути для переменной среды в файл (Path.txt).
 
 Запуск от имени администратора (System.cmd).
@@ -22,7 +38,13 @@ Add paths to Windows environment variables PATH from a line-by-line TXT file.
 Запуск от имени администратора (UserToSystem.cmd).
 Перенос всех путей из переменные среды пользователя в системные переменные.
 
+<<<<<<< HEAD
 #### ENGLISH
+=======
+
+#### ENGLISH
+-------------------------
+>>>>>>> 091f25aa967a3af7b4e399879fb4d40ffdee767f
 Write the paths for the environment variable line by line to a file (Path.txt).
 
 Run as administrator (System.cmd).
