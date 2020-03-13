@@ -15,6 +15,8 @@ Add paths to Windows environment variables PATH from a line-by-line TXT file.
 
 Построчно записать пути для переменной среды в файл (**Path.txt**).
 
+> <br/>
+>
 > **System.cmd**
 >
 > * Запуск от имени администратора (System.cmd).
@@ -42,11 +44,15 @@ Add paths to Windows environment variables PATH from a line-by-line TXT file.
 >
 > * Запуск от имени администратора (UserToSystem.cmd).
 > * Перенос всех путей из переменные среды пользователя в системные переменные.
+>
+> <br/>
 
 ### `English`
 
 Write the paths for the environment variable line by line to a file (**Path.txt**).
 
+> <br/>
+>
 > **System.cmd**
 >
 > * Run as administrator (System.cmd).
@@ -74,6 +80,8 @@ Write the paths for the environment variable line by line to a file (**Path.txt*
 >
 > * Run as administrator (UserToSystem.cmd).
 > * The transfer of all the paths of user variables in the system variables.
+>
+> <br/>
 
 <br/>
 
