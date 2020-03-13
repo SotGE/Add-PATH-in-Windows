@@ -6,6 +6,8 @@ rem Developer: SotGE
 rem Author: Maksim E. Sorokin
 rem Site: https://sotge.ru
 
+rem GitHub: https://github.com/SotGE/Add-PATH-in-Windows
+
 @echo off
 chcp 65001 > nul
 title Переменные среды
