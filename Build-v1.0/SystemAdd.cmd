@@ -7,6 +7,7 @@ rem Author: Maksim E. Sorokin
 rem Site: https://sotge.ru
 
 rem GitHub: https://github.com/SotGE/Add-path-in-Windows
+rem LICENSE: https://github.com/SotGE/Add-PATH-in-Windows/blob/master/LICENSE
 
 @echo off
 
