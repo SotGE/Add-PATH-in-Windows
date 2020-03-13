@@ -1,10 +1,10 @@
 # Add PATH in Windows
 
-> ### `RUS`
-> Добавить пути в Windows переменные среды PATH из построчно файла TXT.
+### `RUS`
+Добавить пути в Windows переменные среды PATH из построчно файла TXT.
 
-> ### `ENG`
-> Add paths to Windows environment variables PATH from a line-by-line TXT file.
+### `ENG`
+Add paths to Windows environment variables PATH from a line-by-line TXT file.
 
 ## Installation
 
