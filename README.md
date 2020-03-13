@@ -1,19 +1,18 @@
 # Add PATH in Windows
 
 #### `RUS`
-Добавить пути в Windows переменные среды PATH из построчно файла TXT.
+> Добавить пути в Windows переменные среды PATH из построчно файла TXT.
 
 #### `ENG`
-Add paths to Windows environment variables PATH from a line-by-line TXT file.
+> Add paths to Windows environment variables PATH from a line-by-line TXT file.
 
 ## Installation
 
 #### `RUS`
 > Построчно записать пути для переменной среды в файл (Path.txt).
-
-> Запуск от имени администратора (System.cmd).
-> Добавить все пути из файла (Path.txt) в системные переменные.
-> Создается бекап (SystemBackup.txt).
+Запуск от имени администратора (System.cmd).
+Добавить все пути из файла (Path.txt) в системные переменные.
+Создается бекап (SystemBackup.txt).
 
 > Запуск от имени администратора (User.cmd).
 > Добавить все пути из файла (Path.txt) в переменные среды пользователя.
