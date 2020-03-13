@@ -1,5 +1,10 @@
-﻿rem Разработчик: SotGE
-rem Сайт: sotge.ru
+﻿
+rem Product: Add PATH in Windows
+rem Version: 1.0
+
+rem Developer: SotGE
+rem Author: Maksim E. Sorokin
+rem Site: https://sotge.ru
 
 @echo off
 chcp 65001 > nul
