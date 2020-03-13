@@ -40,6 +40,14 @@ Add paths to Windows environment variables PATH line by line from the TXT file.
 >
 > <br/>
 >
+> **SystemDelete.cmd**
+>
+> * Запуск от имени администратора (SystemDelete.cmd).
+> * Удалить все пути из файла (Path.txt) в системные переменные.
+> * Создается бекап (Backup/SystemDelete.txt).
+>
+> <br/>
+>
 > **UserAdd.cmd**
 >
 > * Запуск от имени администратора (UserAdd.cmd).
@@ -60,6 +68,14 @@ Add paths to Windows environment variables PATH line by line from the TXT file.
 >
 > * Запуск от имени администратора (UserBackup.cmd).
 > * Создается бекап (Backup/UserBackup.txt).
+>
+> <br/>
+>
+> **UserDelete.cmd**
+>
+> * Запуск от имени администратора (UserDelete.cmd).
+> * Удалить все пути из файла (Path.txt) в переменные среды пользователя.
+> * Создается бекап (Backup/UserDelete.txt).
 >
 > <br/>
 
@@ -85,12 +101,18 @@ Write the paths for the environment variable line by line to a file (**Path.txt*
 >
 > <br/>
 >
-> <br/>
->
 > **SystemBackup.cmd**
 >
 > * Run as administrator (SystemBackup.cmd).
 > * Creates a backup (Backup/SystemBackup.txt).
+>
+> <br/>
+>
+> **SystemDelete.cmd**
+>
+> * Run as administrator (SystemDelete.cmd).
+> * Delete all paths from the file (Path.txt) to system variables.
+> * Creates a backup (Backup/SystemDelete.txt).
 >
 > <br/>
 >
@@ -114,6 +136,14 @@ Write the paths for the environment variable line by line to a file (**Path.txt*
 >
 > * Run as administrator (UserBackup.cmd).
 > * Creates a backup (Backup/UserBackup.txt).
+>
+> <br/>
+>
+> **UserDelete.cmd**
+>
+> * Run as administrator (UserDelete.cmd).
+> * Delete all paths from the file (Path.txt) to user environment variables.
+> * Creates a backup (Backup/UserDelete.txt).
 >
 > <br/>
 
