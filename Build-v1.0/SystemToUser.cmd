@@ -26,6 +26,7 @@ set _COLOR_GREEN=[32m
 set _PATH=%~dp0
 set _BACKUP=SystemToUser.txt
 set _KEY="HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment"
+set _KEY_NEW="HKCU\Environment"
 
 echo. %_COLOR_CYAN%
 echo.
@@ -41,17 +42,12 @@ echo COMMAND: Path folder
 echo STATUS: %_COLOR_GREEN%%_PATH%%_COLOR_CYAN%
 echo.
 
-echo.
-echo COMMAND: Path file (%_FILE%)
-echo STATUS: %_COLOR_GREEN%%_PATH%%_FILE%%_COLOR_CYAN%
-echo.
-
 for /f "usebackq eol=# tokens=2,*" %%A in (`REG QUERY %_KEY% /v PATH`) do (
 	set _CURRENT_PATH=%%B
 )
 
 echo.
-echo COMMAND: PATH Current
+echo COMMAND: System PATH Current
 echo STATUS: %_COLOR_GREEN%%_CURRENT_PATH%%_COLOR_CYAN%
 echo.
 
@@ -73,9 +69,13 @@ echo.
 setx path "%_CURRENT_PATH%"
 echo.
 
+for /f "usebackq eol=# tokens=2,*" %%A in (`REG QUERY %_KEY_NEW% /v PATH`) do (
+	set _CURRENT_PATH_NEW=%%B
+)
+
 echo.
-echo COMMAND: PATH Update
-echo STATUS: %_COLOR_GREEN%%_CURRENT_PATH%%_MASS%%_COLOR_CYAN%
+echo COMMAND: User PATH Current
+echo STATUS: %_COLOR_GREEN%%_CURRENT_PATH_NEW%%_COLOR_CYAN%
 echo.
 
 echo.
