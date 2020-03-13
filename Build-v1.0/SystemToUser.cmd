@@ -52,12 +52,16 @@ echo COMMAND: System PATH Current
 echo STATUS: %_COLOR_GREEN%%_CURRENT_PATH%%_COLOR_CYAN%
 echo.
 
+for /f "usebackq eol=# tokens=2,*" %%A in (`REG QUERY %_KEY_NEW% /v PATH`) do (
+	set _CURRENT_PATH_NEW=%%B
+)
+
 if exist "%_PATH%Backup" goto BACKUP_DIR
 	mkdir "%_PATH%Backup"
 :BACKUP_DIR
 
 (
-	for %%A in ("%_CURRENT_PATH:;=" "%") do (
+	for %%A in ("%_CURRENT_PATH_NEW:;=" "%") do (
 		echo(%%~A
 	)
 ) > "%_PATH%Backup\%_BACKUP%"
@@ -69,10 +73,6 @@ echo.
 
 setx path "%_CURRENT_PATH%"
 echo.
-
-for /f "usebackq eol=# tokens=2,*" %%A in (`REG QUERY %_KEY_NEW% /v PATH`) do (
-	set _CURRENT_PATH_NEW=%%B
-)
 
 echo.
 echo COMMAND: User PATH Update

@@ -21,7 +21,7 @@ Add paths to Windows environment variables PATH line by line from the TXT file.
 >
 > * Запуск от имени администратора (SystemAdd.cmd).
 > * Добавить все пути из файла (Path.txt) в системные переменные.
-> * Создается бекап (Backup/SystemAdd.txt).
+> * Создается бекап (Backup/SystemAdd.txt) системные переменные.
 >
 > <br/>
 >
@@ -29,14 +29,14 @@ Add paths to Windows environment variables PATH line by line from the TXT file.
 >
 > * Запуск от имени администратора (SystemToUser.cmd).
 > * Перенос всех путей из системные переменные в переменные среды пользователя.
-> * Создается бекап (Backup/SystemToUser.txt).
+> * Создается бекап (Backup/SystemToUser.txt) переменные среды пользователя.
 >
 > <br/>
 >
 > **SystemBackup.cmd**
 >
 > * Запуск от имени администратора (SystemBackup.cmd).
-> * Создается бекап (Backup/SystemBackup.txt).
+> * Создается бекап (Backup/SystemBackup.txt) системные переменные.
 >
 > <br/>
 >
@@ -44,7 +44,7 @@ Add paths to Windows environment variables PATH line by line from the TXT file.
 >
 > * Запуск от имени администратора (SystemDelete.cmd).
 > * Удалить все пути из файла (Path.txt) в системные переменные.
-> * Создается бекап (Backup/SystemDelete.txt).
+> * Создается бекап (Backup/SystemDelete.txt) системные переменные.
 >
 > <br/>
 >
@@ -52,7 +52,7 @@ Add paths to Windows environment variables PATH line by line from the TXT file.
 >
 > * Запуск от имени администратора (UserAdd.cmd).
 > * Добавить все пути из файла (Path.txt) в переменные среды пользователя.
-> * Создается бекап (Backup/UserAdd.txt).
+> * Создается бекап (Backup/UserAdd.txt) переменные среды пользователя.
 >
 > <br/>
 >
@@ -60,14 +60,14 @@ Add paths to Windows environment variables PATH line by line from the TXT file.
 >
 > * Запуск от имени администратора (UserToSystem.cmd).
 > * Перенос всех путей из переменные среды пользователя в системные переменные.
-> * Создается бекап (Backup/UserToSystem.txt).
+> * Создается бекап (Backup/UserToSystem.txt) системные переменные.
 >
 > <br/>
 >
 > **UserBackup.cmd**
 >
 > * Запуск от имени администратора (UserBackup.cmd).
-> * Создается бекап (Backup/UserBackup.txt).
+> * Создается бекап (Backup/UserBackup.txt) переменные среды пользователя.
 >
 > <br/>
 >
@@ -75,7 +75,7 @@ Add paths to Windows environment variables PATH line by line from the TXT file.
 >
 > * Запуск от имени администратора (UserDelete.cmd).
 > * Удалить все пути из файла (Path.txt) в переменные среды пользователя.
-> * Создается бекап (Backup/UserDelete.txt).
+> * Создается бекап (Backup/UserDelete.txt) переменные среды пользователя.
 >
 > <br/>
 
@@ -89,22 +89,22 @@ Write the paths for the environment variable line by line to a file (**Path.txt*
 >
 > * Run as administrator (SystemAdd.cmd).
 > * Add all paths from the file (Path.txt) to system variables.
-> * Creates a backup (Backup/SystemAdd.txt).
+> * Creates a backup (Backup/SystemAdd.txt) system variables.
 >
 > <br/>
 >
 > **SystemToUser.cmd**
 >
 > * Run as administrator (SystemToUser.cmd).
-> * The transfer of all the paths of system variables in the user variables.
-> * Creates a backup (Backup/SystemToUser.txt).
+> * The transfer of all the paths of system variables in the user environment variables.
+> * Creates a backup (Backup/SystemToUser.txt) user environment variables.
 >
 > <br/>
 >
 > **SystemBackup.cmd**
 >
 > * Run as administrator (SystemBackup.cmd).
-> * Creates a backup (Backup/SystemBackup.txt).
+> * Creates a backup (Backup/SystemBackup.txt) system variables.
 >
 > <br/>
 >
@@ -112,7 +112,7 @@ Write the paths for the environment variable line by line to a file (**Path.txt*
 >
 > * Run as administrator (SystemDelete.cmd).
 > * Delete all paths from the file (Path.txt) to system variables.
-> * Creates a backup (Backup/SystemDelete.txt).
+> * Creates a backup (Backup/SystemDelete.txt) system variables.
 >
 > <br/>
 >
@@ -120,22 +120,22 @@ Write the paths for the environment variable line by line to a file (**Path.txt*
 >
 > * Run as administrator (UserAdd.cmd).
 > * Add all paths from the file (Path.txt) to user environment variables.
-> * Creates a backup (Backup/UserAdd.txt).
+> * Creates a backup (Backup/UserAdd.txt) user environment variables.
 >
 > <br/>
 >
 > **UserToSystem.cmd**
 >
 > * Run as administrator (UserToSystem.cmd).
-> * The transfer of all the paths of user variables in the system variables.
-> * Creates a backup (Backup/UserToSystem.txt).
+> * The transfer of all the paths of user environment variables in the system variables.
+> * Creates a backup (Backup/UserToSystem.txt) system variables.
 >
 > <br/>
 >
 > **UserBackup.cmd**
 >
 > * Run as administrator (UserBackup.cmd).
-> * Creates a backup (Backup/UserBackup.txt).
+> * Creates a backup (Backup/UserBackup.txt) user environment variables.
 >
 > <br/>
 >
@@ -143,7 +143,7 @@ Write the paths for the environment variable line by line to a file (**Path.txt*
 >
 > * Run as administrator (UserDelete.cmd).
 > * Delete all paths from the file (Path.txt) to user environment variables.
-> * Creates a backup (Backup/UserDelete.txt).
+> * Creates a backup (Backup/UserDelete.txt) user environment variables.
 >
 > <br/>
 
