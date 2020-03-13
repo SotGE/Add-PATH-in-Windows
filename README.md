@@ -10,16 +10,14 @@ Add paths to Windows environment variables PATH from a line-by-line TXT file.
 ## Installation
 
 ### `Russian`
->
-> **Построчно записать пути для переменной среды в файл (Path.txt).**
->
-> <br/>
->
+
+Построчно записать пути для переменной среды в файл (**Path.txt**).
+
 > **System.cmd**
 >
 > * Запуск от имени администратора (System.cmd).
 > * Добавить все пути из файла (Path.txt) в системные переменные.
-> * Создается бекап (SystemBackup.txt).
+> * Создается бекап (Backup/System.txt).
 >
 > <br/>
 >
@@ -27,7 +25,7 @@ Add paths to Windows environment variables PATH from a line-by-line TXT file.
 >
 > * Запуск от имени администратора (User.cmd).
 > * Добавить все пути из файла (Path.txt) в переменные среды пользователя.
-> * Создается бекап (UserBackup.txt).
+> * Создается бекап (Backup/User.txt).
 >
 > <br/>
 >
@@ -37,16 +35,14 @@ Add paths to Windows environment variables PATH from a line-by-line TXT file.
 > * Перенос всех путей из переменные среды пользователя в системные переменные.
 
 ### `English`
->
-> **Write the paths for the environment variable line by line to a file (Path.txt).**
->
-> <br/>
->
+
+Write the paths for the environment variable line by line to a file (**Path.txt**).
+
 > **System.cmd**
 >
 > * Run as administrator (System.cmd).
 > * Add all paths from the file (Path.txt) to system variables.
-> * Creates a backup (SystemBackup.txt).
+> * Creates a backup (Backup/System.txt).
 >
 > <br/>
 >
@@ -54,7 +50,7 @@ Add paths to Windows environment variables PATH from a line-by-line TXT file.
 >
 > * Run as administrator (User.cmd).
 > * Add all paths from the file (Path.txt) to user environment variables.
-> * Creates a backup (UserBackup.txt).
+> * Creates a backup (Backup/User.txt).
 >
 > <br/>
 >
