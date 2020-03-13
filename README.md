@@ -24,15 +24,15 @@ Add paths to Windows environment variables PATH from a line-by-line TXT file.
 
 > **English**
 > * Write the paths for the environment variable line by line to a file (Path.txt).
->
+> <br />
 > * Run as administrator (System.cmd).
 > * Add all paths from the file (Path.txt) to system variables.
 > * Creates a backup (SystemBackup.txt).
->
+> <br />
 > * Run as administrator (User.cmd).
 > * Add all paths from the file (Path.txt) to user environment variables.
 > * Creates a backup (UserBackup.txt).
->
+> <br />
 > * Run as administrator (UserToSystem.cmd).
 > * The transfer of all the paths of user variables in the system variables.
 
