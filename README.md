@@ -1,5 +1,5 @@
 
-[home-url]: </> (Home)
+[home-url]: <https://github.com/SotGE/Add-PATH-in-Windows> (Home)
 [readme-ru-url]: <./README_RU.md> (README_RU)
 [code-of-conduct-url]: <./CODE_OF_CONDUCT.md> (CODE_OF_CONDUCT)
 [license-url]: <./LICENSE> (LICENSE)
