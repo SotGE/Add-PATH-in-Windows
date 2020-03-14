@@ -217,17 +217,17 @@ Telegram: [@SotGE](https://t.me/sotge)
 
 <br/>
 
-## Licensing
-
-Project code is available under the Apache License 2.0
-
-For more information, see [license agreement](LICENSE)
-
-<br/>
-
 ## Contributing
 
 Read below to learn how you can take part in improving Add PATH in Windows.
 
 See the [Code of Conduct](./CODE_OF_CONDUCT) document.
 Thank you, [Contributors](https://github.com/SotGE/Add-PATH-in-Windows/graphs/contributors)!
+
+<br/>
+
+## Licensing
+
+Project code is available under the Apache License 2.0
+
+For more information, see [license agreement](./LICENSE)
