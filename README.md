@@ -1,17 +1,15 @@
 
-<p align="center">
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![License][license-shield]][license-url]
-</p>
 
 <br />
 
-# <p align="center">Add PATH in Windows v1.0 by SotGE</p>
+# <p align="center">[Add PATH in Windows v1.0 by SotGE][home-url]</p>
 
-<p align="center"><a href="[issues-url]">Report Bug</a></p>
+##### <p align="center">[Contributors][contributors-url] &middot; [Forks][forks-url] &middot; [Stars][stars-url] &middot; [Issues][issues-url] &middot; [License][license-url]</p>
 
 ### `Russian`
 Добавить пути в Windows переменные среды PATH построчно из файла TXT.
@@ -225,7 +223,7 @@ Read below to learn how you can take part in improving project
 
 For more information, see [code of conduct](./CODE_OF_CONDUCT.md)
 
-Thank you, [contributors]([contributors-url])!
+Thank you, [contributors][contributors-url]!
 
 <br/>
 
@@ -251,16 +249,15 @@ Twitter: [@SotGE](https://twitter.com/sotge)
 
 Telegram: [@SotGE](https://t.me/sotge)
 
-<!--- MARKDOWN LINKS & IMAGES --->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[contributors-shield]: <https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square>
+[forks-shield]: <https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square>
+[stars-shield]: <https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square>
+[issues-shield]: <https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square>
+[license-shield]: <https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square>
 
-[contributors-url]: https://github.com/SotGE/Add-PATH-in-Windows/graphs/contributors
-[forks-url]: https://github.com/SotGE/Add-PATH-in-Windows/network/members
-[stars-url]: https://github.com/SotGE/Add-PATH-in-Windows/stargazers
-[issues-url]: https://github.com/SotGE/Add-PATH-in-Windows/issues
-[license-url]: https://github.com/SotGE/Add-PATH-in-Windows/blob/master/LICENSE
-<!--- --- --->
+[home-url]: <https://github.com/SotGE/Add-PATH-in-Windows> (Home)
+[contributors-url]: <https://github.com/SotGE/Add-PATH-in-Windows/graphs/contributors> (Contributors)
+[forks-url]: <https://github.com/SotGE/Add-PATH-in-Windows/network/members> (Forks)
+[stars-url]: <https://github.com/SotGE/Add-PATH-in-Windows/stargazers> (Stars)
+[issues-url]: <https://github.com/SotGE/Add-PATH-in-Windows/issues> (Issues)
+[license-url]: <https://github.com/SotGE/Add-PATH-in-Windows/blob/master/LICENSE> (License)
