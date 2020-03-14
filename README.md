@@ -48,7 +48,7 @@
 
 <br/>
 
-Add paths to Windows environment variables PATH line by line from the TXT file.
+Adding directory to PATH Environment Variable in Windows from the TXT file line by line.
 
 <br/>
 
