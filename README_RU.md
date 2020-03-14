@@ -30,17 +30,15 @@
 [issues-shield]: <https://img.shields.io/github/issues/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (Issues)
 [license-shield]: <https://img.shields.io/github/license/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (License)
 
-[logo-img]: <./Images/logo.png> (Logo)
+[logo-img]: <./Images/logo.png> (LOGO)
 
 ### **<p align="center">[README English »][home-url]</p>**
 
-<br/>
-
------
+****
 
 <br/>
 
-##### <p align="center">[![Logo][logo-img]][home-url]</p>
+##### <p align="center">[![LOGO][logo-img]][home-url]</p>
 
 <br/>
 
@@ -176,17 +174,17 @@ Windows
 
 ## Контакты
 
-Сайт: [sotge.ru](https://sotge.ru "SotGE")
+Сайт: <https://sotge.ru/>
 
 Электронная почта: <sotge@hotmail.com>
 
-Facebook: [@SotGEGDS](https://www.facebook.com/sotgegds "SotGEGDS")
+Facebook: [@SotGEGDS](https://www.facebook.com/sotgegds "https://www.facebook.com/sotgegds")
 
-VK: [@SotGE](https://vk.com/sotge "SotGE")
+VK: [@SotGE](https://vk.com/sotge "https://vk.com/sotge")
 
-Twitter: [@SotGE](https://twitter.com/sotge "SotGE")
+Twitter: [@SotGE](https://twitter.com/sotge "https://twitter.com/sotge")
 
-Telegram: [@SotGE](https://t.me/sotge "SotGE")
+Telegram: [@SotGE](https://t.me/sotge "https://t.me/sotge")
 
 <br/>
 
