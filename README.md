@@ -207,27 +207,27 @@ Windows
 
 <br/>
 
-## Contacts
+## Contributing
+
+Read below to learn how you can take part in improving Add PATH in Windows.
+
+See the [code of conduct](./CODE_OF_CONDUCT.md) document.
+Thank you, [contributors](https://github.com/SotGE/Add-PATH-in-Windows/graphs/contributors)!
+
+<br/>
+
+## License
+
+Project code is available under the [license agreement]
+
+For more information, see [license agreement](./LICENSE)
+
+<br/>
+
+## About
 
 Site: [sotge.ru](https://sotge.ru  "SotGE")
 
 E-Mail: <sotge@hotmail.com>
 
 Telegram: [@SotGE](https://t.me/sotge)
-
-<br/>
-
-## Contributing
-
-Read below to learn how you can take part in improving Add PATH in Windows.
-
-See the [Code of Conduct](./CODE_OF_CONDUCT.md) document.
-Thank you, [Contributors](https://github.com/SotGE/Add-PATH-in-Windows/graphs/contributors)!
-
-<br/>
-
-## Licensing
-
-Project code is available under the Apache License 2.0
-
-For more information, see [license agreement](./LICENSE)
