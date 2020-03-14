@@ -209,16 +209,17 @@ Windows
 
 ## Contributing
 
-Read below to learn how you can take part in improving Add PATH in Windows.
+Read below to learn how you can take part in improving project
 
-See the [code of conduct](./CODE_OF_CONDUCT.md) document.
+For more information, see [code of conduct](./CODE_OF_CONDUCT.md)
+
 Thank you, [contributors](https://github.com/SotGE/Add-PATH-in-Windows/graphs/contributors)!
 
 <br/>
 
 ## License
 
-Project code is available under the [license agreement]
+Project code is available under the Apache License 2.0
 
 For more information, see [license agreement](./LICENSE)
 
@@ -229,5 +230,11 @@ For more information, see [license agreement](./LICENSE)
 Site: [sotge.ru](https://sotge.ru  "SotGE")
 
 E-Mail: <sotge@hotmail.com>
+
+Facebook: [@SotGEGDS](https://www.facebook.com/sotgegds)
+
+VK: [@SotGE](https://vk.com/sotge)
+
+Twitter: [@SotGE](https://twitter.com/sotge)
 
 Telegram: [@SotGE](https://t.me/sotge)
