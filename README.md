@@ -22,6 +22,10 @@
 
 <br/>
 
+#### <p align="center"><strong>[README Russian »][readme-ru-url]</strong></p>
+
+<br/>
+
 ##### <p align="center">[![Logo][logo-img]][home-url]</p>
 
 <br/>
@@ -29,10 +33,6 @@
 # <p align="center">[{{ title }}][home-url]</p>
 
 ##### <p align="center">[![Contributors][contributors-shield]][contributors-url] &nbsp; [![Forks][forks-shield]][forks-url] &nbsp; [![Stargazers][stars-shield]][stars-url] &nbsp; [![Issues][issues-shield]][issues-url] &nbsp; [![License][license-shield]][license-url]</p>
-
-<br/>
-
-#### <p align="center"><strong>[README Russian »][readme-ru-url]</strong></p>
 
 <br/>
 
