@@ -1,6 +1,4 @@
 
-{% var title %}Add PATH in Windows v1.0 by SotGE{% endvar %}
-
 [home-url]: </> (Home)
 [readme-ru-url]: <./README_RU.md> (README_RU)
 [code-of-conduct-url]: <./CODE_OF_CONDUCT.md> (CODE_OF_CONDUCT)
@@ -22,7 +20,7 @@
 
 <br/>
 
-#### <p align="center"><strong>[README Russian »][readme-ru-url]</strong></p>
+## <p align="center"><strong>[README Russian »][readme-ru-url]</strong></p>
 
 <br/>
 
@@ -30,7 +28,7 @@
 
 <br/>
 
-# <p align="center">[{{ title }}][home-url]</p>
+# <p align="center">[Add PATH in Windows v1.0 by SotGE][home-url]</p>
 
 ##### <p align="center">[![Contributors][contributors-shield]][contributors-url] &nbsp; [![Forks][forks-shield]][forks-url] &nbsp; [![Stargazers][stars-shield]][stars-url] &nbsp; [![Issues][issues-shield]][issues-url] &nbsp; [![License][license-shield]][license-url]</p>
 
