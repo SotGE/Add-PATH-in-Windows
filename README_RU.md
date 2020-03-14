@@ -1,4 +1,16 @@
 
+<!--
+Product: Add path in Windows
+Version: 1.0
+
+Developer: SotGE
+Author: Maksim E. Sorokin
+Site: https://sotge.ru
+
+GitHub: https://github.com/SotGE/Add-path-in-Windows
+LICENSE: https://github.com/SotGE/Add-PATH-in-Windows/blob/master/LICENSE
+-->
+
 [home-url]: <https://github.com/SotGE/Add-PATH-in-Windows> (Home)
 [readme-ru-url]: <./README_RU.md> (README_RU)
 [code-of-conduct-url]: <./CODE_OF_CONDUCT.md> (CODE_OF_CONDUCT)
