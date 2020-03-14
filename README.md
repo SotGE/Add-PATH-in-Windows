@@ -230,4 +230,4 @@ For more information, see [license agreement](LICENSE)
 Read below to learn how you can take part in improving Add PATH in Windows.
 
 See the [Code of Conduct](./CODE_OF_CONDUCT) document.
-Thank you, [Contributors](./templates/graphs/contributors)!
+Thank you, [Contributors](https://github.com/SotGE/Add-PATH-in-Windows/graphs/contributors)!
