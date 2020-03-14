@@ -36,111 +36,11 @@
 
 <br/>
 
-### `Russian`
-Добавить пути в Windows переменные среды PATH построчно из файла TXT.
-
-### `English`
 Add paths to Windows environment variables PATH line by line from the TXT file.
 
 <br/>
 
 ## Documentation
-
-### `Russian`
-
-Построчно записать пути для переменной среды в файл (**Path.txt**).
-
-> <br/>
->
-> **SystemAdd.cmd**
->
-> * Запуск от имени администратора (SystemAdd.cmd).
-> * Добавить все пути из файла (Path.txt) в системные переменные.
-> * Создается бекап (Backup/SystemAdd.txt) системные переменные.
->
-> <br/>
->
-> **SystemToUser.cmd**
->
-> * Запуск от имени администратора (SystemToUser.cmd).
-> * Перенос всех путей из системные переменные в переменные среды пользователя.
-> * Создается бекап (Backup/SystemToUser.txt) переменные среды пользователя.
->
-> <br/>
->
-> **SystemBackup.cmd**
->
-> * Запуск от имени администратора (SystemBackup.cmd).
-> * Создается бекап (Backup/SystemBackup.txt) системные переменные.
->
-> <br/>
->
-> **SystemDelete.cmd**
->
-> * Запуск от имени администратора (SystemDelete.cmd).
-> * Удалить все пути из файла (Path.txt) в системные переменные.
-> * Создается бекап (Backup/SystemDelete.txt) системные переменные.
->
-> <br/>
->
-> **UserAdd.cmd**
->
-> * Запуск от имени администратора (UserAdd.cmd).
-> * Добавить все пути из файла (Path.txt) в переменные среды пользователя.
-> * Создается бекап (Backup/UserAdd.txt) переменные среды пользователя.
->
-> <br/>
->
-> **UserToSystem.cmd**
->
-> * Запуск от имени администратора (UserToSystem.cmd).
-> * Перенос всех путей из переменные среды пользователя в системные переменные.
-> * Создается бекап (Backup/UserToSystem.txt) системные переменные.
->
-> <br/>
->
-> **UserBackup.cmd**
->
-> * Запуск от имени администратора (UserBackup.cmd).
-> * Создается бекап (Backup/UserBackup.txt) переменные среды пользователя.
->
-> <br/>
->
-> **UserDelete.cmd**
->
-> * Запуск от имени администратора (UserDelete.cmd).
-> * Удалить все пути из файла (Path.txt) в переменные среды пользователя.
-> * Создается бекап (Backup/UserDelete.txt) переменные среды пользователя.
->
-> <br/>
->
-> **AddSystemUser.cmd**
->
-> * Запуск от имени администратора (AddSystemUser.cmd).
-> * Добавить все пути из файла (Path.txt) в системные переменные и переменные среды пользователя.
-> * Создается бекап (Backup/AddSystem.txt) системные переменные.
-> * Создается бекап (Backup/AddUser.txt) переменные среды пользователя.
->
-> <br/>
->
-> **BackupSystemUser.cmd**
->
-> * Запуск от имени администратора (BackupSystemUser.cmd).
-> * Создается бекап (Backup/BackupSystem.txt) системные переменные.
-> * Создается бекап (Backup/BackupUser.txt) переменные среды пользователя.
->
-> <br/>
->
-> **DeleteSystemUser.cmd**
->
-> * Запуск от имени администратора (DeleteSystemUser.cmd).
-> * Удалить все пути из файла (Path.txt) в системные переменные и переменные среды пользователя.
-> * Создается бекап (Backup/DeleteSystem.txt) системные переменные.
-> * Создается бекап (Backup/DeleteUser.txt) переменные среды пользователя.
->
-> <br/>
-
-### `English`
 
 Write the paths for the environment variable line by line to a file (**Path.txt**).
 
