@@ -15,7 +15,7 @@ Add paths to Windows environment variables PATH line by line from the TXT file.
 
 <br/>
 
-## Installation
+## Documentation
 
 ### `Russian`
 
