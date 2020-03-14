@@ -18,8 +18,6 @@
 
 [logo-img]: <./Images/logo.png> (Logo)
 
-<br/>
-
 ### **<p align="center">[README Russian »][readme-ru-url]</p>**
 
 <br/>
@@ -279,5 +277,3 @@ Telegram: [@SotGE](https://t.me/sotge)
 <br/>
 
 ##### <p align="center">[Contributors][contributors-url] &middot; [Forks][forks-url] &middot; [Stars][stars-url] &middot; [Issues][issues-url] &middot; [License][license-url]</p>
-
-<br/>
