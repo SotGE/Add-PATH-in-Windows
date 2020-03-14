@@ -44,7 +44,6 @@
 
 # <p align="center">[Add PATH in Windows v1.0 by SotGE][home-url]</p>
 
-
 ##### <p align="center">[![Contributors][contributors-shield]][contributors-url] &nbsp; [![Forks][forks-shield]][forks-url] &nbsp; [![Stargazers][stars-shield]][stars-url] &nbsp; [![Issues][issues-shield]][issues-url] &nbsp; [![License][license-shield]][license-url]</p>
 
 <br/>
