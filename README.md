@@ -20,7 +20,7 @@
 
 <br/>
 
-## <p align="center"><strong>[README Russian »][readme-ru-url]</strong></p>
+### <p align="center"><strong>[README Russian »][readme-ru-url]</strong></p>
 
 <br/>
 
