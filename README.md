@@ -221,7 +221,7 @@ Telegram: [@SotGE](https://t.me/sotge)
 
 Read below to learn how you can take part in improving Add PATH in Windows.
 
-See the [Code of Conduct](./CODE_OF_CONDUCT) document.
+See the [Code of Conduct](./CODE_OF_CONDUCT.md) document.
 Thank you, [Contributors](https://github.com/SotGE/Add-PATH-in-Windows/graphs/contributors)!
 
 <br/>
