@@ -171,7 +171,7 @@ For more information, see [license agreement][license-url]
 
 <br/>
 
-## About
+## Contacts
 
 Site: [sotge.ru](https://sotge.ru  "SotGE")
 

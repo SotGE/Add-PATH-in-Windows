@@ -147,13 +147,13 @@ LICENSE: https://github.com/SotGE/Add-PATH-in-Windows/blob/master/LICENSE
 
 <br/>
 
-## System requirements
+## Системные требования
 
 Windows
 
 <br/>
 
-## Contributing
+## Содействие
 
 Read below to learn how you can take part in improving project
 
@@ -163,7 +163,7 @@ Thank you, [contributors][contributors-url]!
 
 <br/>
 
-## License
+## Лицензия
 
 Project code is available under the Apache License 2.0
 
@@ -171,7 +171,7 @@ For more information, see [license agreement][license-url]
 
 <br/>
 
-## About
+## Контакты
 
 Site: [sotge.ru](https://sotge.ru  "SotGE")
 
