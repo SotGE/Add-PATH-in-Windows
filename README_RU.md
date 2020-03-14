@@ -31,8 +31,7 @@ LICENSE: https://github.com/SotGE/Add-PATH-in-Windows/blob/master/LICENSE
 [logo-img]: <./Images/logo.png> (Logo)
 
 ### **<p align="center">[README English »][home-url]</p>**
-
-
+<br/>
 -----
 
 <br/>
@@ -155,27 +154,27 @@ Windows
 
 ## Содействие
 
-Read below to learn how you can take part in improving project
+Читайте ниже, чтобы узнать, как вы можете принять участие в улучшении проекта
 
-For more information, see [code of conduct][code-of-conduct-url]
+Дополнительные сведения смотрите в разделе [кодекс поведения][code-of-conduct-url]
 
-Thank you, [contributors][contributors-url]!
+Спасибо вам, [соавторы][contributors-url]!
 
 <br/>
 
 ## Лицензия
 
-Project code is available under the Apache License 2.0
+Код проекта доступен под лицензией Apache License 2.0
 
-For more information, see [license agreement][license-url]
+Дополнительные сведения смотрите в разделе [лицензионное соглашение][license-url]
 
 <br/>
 
 ## Контакты
 
-Site: [sotge.ru](https://sotge.ru  "SotGE")
+Сайт: [sotge.ru](https://sotge.ru  "SotGE")
 
-E-Mail: <sotge@hotmail.com>
+Электронная почта: <sotge@hotmail.com>
 
 Facebook: [@SotGEGDS](https://www.facebook.com/sotgegds)
 

@@ -31,8 +31,7 @@ LICENSE: https://github.com/SotGE/Add-PATH-in-Windows/blob/master/LICENSE
 [logo-img]: <./Images/logo.png> (Logo)
 
 ### **<p align="center">[README Russian »][readme-ru-url]</p>**
-
-
+<br/>
 -----
 
 <br/>
