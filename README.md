@@ -1,15 +1,11 @@
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]
-
-<br />
+<br/>
 
 # <p align="center">[Add PATH in Windows v1.0 by SotGE][home-url]</p>
 
-##### <p align="center">[Contributors][contributors-url] &middot; [Forks][forks-url] &middot; [Stars][stars-url] &middot; [Issues][issues-url] &middot; [License][license-url]</p>
+##### <p align="center">[![Contributors][contributors-shield]][contributors-url] &nbsp; [![Forks][forks-shield]][forks-url] &nbsp; [![Stargazers][stars-shield]][stars-url] &nbsp; [![Issues][issues-shield]][issues-url] &nbsp; [![License][license-shield]][license-url]</p>
+
+<br/>
 
 ### `Russian`
 Добавить пути в Windows переменные среды PATH построчно из файла TXT.
@@ -249,11 +245,17 @@ Twitter: [@SotGE](https://twitter.com/sotge)
 
 Telegram: [@SotGE](https://t.me/sotge)
 
-[contributors-shield]: <https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square>
-[forks-shield]: <https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square>
-[stars-shield]: <https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square>
-[issues-shield]: <https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square>
-[license-shield]: <https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square>
+<br/>
+
+##### <p align="center">[Contributors][contributors-url] &middot; [Forks][forks-url] &middot; [Stars][stars-url] &middot; [Issues][issues-url] &middot; [License][license-url]</p>
+
+<br/>
+
+[contributors-shield]: <https://img.shields.io/github/contributors/SotGE/Add-PATH-in-Windows.svg?style=flat-square>
+[forks-shield]: <https://img.shields.io/github/forks/SotGE/Add-PATH-in-Windows.svg?style=flat-square>
+[stars-shield]: <https://img.shields.io/github/stars/SotGE/Add-PATH-in-Windows.svg?style=flat-square>
+[issues-shield]: <https://img.shields.io/github/issues/SotGE/Add-PATH-in-Windows.svg?style=flat-square>
+[license-shield]: <https://img.shields.io/github/license/SotGE/Add-PATH-in-Windows.svg?style=flat-square>
 
 [home-url]: <https://github.com/SotGE/Add-PATH-in-Windows> (Home)
 [contributors-url]: <https://github.com/SotGE/Add-PATH-in-Windows/graphs/contributors> (Contributors)
