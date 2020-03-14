@@ -176,17 +176,17 @@ For more information, see [license agreement][license-url]
 
 ## Contacts
 
-Site: [sotge.ru](https://sotge.ru  "SotGE")
+Site: [sotge.ru](https://sotge.ru "SotGE")
 
 E-Mail: <sotge@hotmail.com>
 
-Facebook: [@SotGEGDS](https://www.facebook.com/sotgegds)
+Facebook: [@SotGEGDS](https://www.facebook.com/sotgegds "SotGEGDS")
 
-VK: [@SotGE](https://vk.com/sotge)
+VK: [@SotGE](https://vk.com/sotge "SotGE")
 
-Twitter: [@SotGE](https://twitter.com/sotge)
+Twitter: [@SotGE](https://twitter.com/sotge "SotGE")
 
-Telegram: [@SotGE](https://t.me/sotge)
+Telegram: [@SotGE](https://t.me/sotge "SotGE")
 
 <br/>
 
