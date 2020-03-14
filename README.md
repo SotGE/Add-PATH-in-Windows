@@ -1,8 +1,7 @@
 
-<!-- {% var title %}Add PATH in Windows v1.0 by SotGE{% endvar %} -->
-{% var title = "Add PATH in Windows v1.0 by SotGE" %}
+{% var title %}Add PATH in Windows v1.0 by SotGE{% endvar %}
 
-[home-url]: <./> (Home)
+[home-url]: </> (Home)
 [readme-ru-url]: <./README_RU.md> (README_RU)
 [code-of-conduct-url]: <./CODE_OF_CONDUCT.md> (CODE_OF_CONDUCT)
 [license-url]: <./LICENSE> (LICENSE)
@@ -19,19 +18,11 @@
 [issues-shield]: <https://img.shields.io/github/issues/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (Issues)
 [license-shield]: <https://img.shields.io/github/license/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (License)
 
-[logo-img]: <./Images/logo512.png> (Logo)
+[logo-img]: <./Images/logo.png> (Logo)
 
 <br/>
 
 ##### <p align="center">[![Logo][logo-img]][home-url]</p>
-
-##### <p align="center">![logo-img](./Images/logo512.png)</p>
-
-<p align="center">
-    <a href="https://github.com/SotGE/Add-PATH-in-Windows">
-        <img src="Images/logo512.png" alt="Logo" width="80" height="80" />
-    </a>
-</p>
 
 <br/>
 
@@ -41,7 +32,7 @@
 
 <br/>
 
-### <p align="center"><strong>[README Russian »][readme-ru]</strong></p>
+#### <p align="center"><strong>[README Russian »][readme-ru-url]</strong></p>
 
 <br/>
 
