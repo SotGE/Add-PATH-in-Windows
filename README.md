@@ -251,11 +251,11 @@ Telegram: [@SotGE](https://t.me/sotge)
 
 <br/>
 
-[contributors-shield]: <https://img.shields.io/github/contributors/SotGE/Add-PATH-in-Windows.svg?style=flat-square>
-[forks-shield]: <https://img.shields.io/github/forks/SotGE/Add-PATH-in-Windows.svg?style=flat-square>
-[stars-shield]: <https://img.shields.io/github/stars/SotGE/Add-PATH-in-Windows.svg?style=flat-square>
-[issues-shield]: <https://img.shields.io/github/issues/SotGE/Add-PATH-in-Windows.svg?style=flat-square>
-[license-shield]: <https://img.shields.io/github/license/SotGE/Add-PATH-in-Windows.svg?style=flat-square>
+[contributors-shield]: <https://img.shields.io/github/contributors/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (Contributors)
+[forks-shield]: <https://img.shields.io/github/forks/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (Forks)
+[stars-shield]: <https://img.shields.io/github/stars/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (Stars)
+[issues-shield]: <https://img.shields.io/github/issues/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (Issues)
+[license-shield]: <https://img.shields.io/github/license/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (License)
 
 [home-url]: <https://github.com/SotGE/Add-PATH-in-Windows> (Home)
 [contributors-url]: <https://github.com/SotGE/Add-PATH-in-Windows/graphs/contributors> (Contributors)
