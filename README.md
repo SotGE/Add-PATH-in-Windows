@@ -1,9 +1,47 @@
 
+<!-- {% var title %}Add PATH in Windows v1.0 by SotGE{% endvar %} -->
+{% var title = "Add PATH in Windows v1.0 by SotGE" %}
+
+[home-url]: <./> (Home)
+[readme-ru-url]: <./README_RU.md> (README_RU)
+[code-of-conduct-url]: <./CODE_OF_CONDUCT.md> (CODE_OF_CONDUCT)
+[license-url]: <./LICENSE> (LICENSE)
+
+[contributors-url]: <https://github.com/SotGE/Add-PATH-in-Windows/graphs/contributors> (Contributors)
+[forks-url]: <https://github.com/SotGE/Add-PATH-in-Windows/network/members> (Forks)
+[stars-url]: <https://github.com/SotGE/Add-PATH-in-Windows/stargazers> (Stars)
+[issues-url]: <https://github.com/SotGE/Add-PATH-in-Windows/issues> (Issues)
+[license-url]: <https://github.com/SotGE/Add-PATH-in-Windows/blob/master/LICENSE> (License)
+
+[contributors-shield]: <https://img.shields.io/github/contributors/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (Contributors)
+[forks-shield]: <https://img.shields.io/github/forks/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (Forks)
+[stars-shield]: <https://img.shields.io/github/stars/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (Stars)
+[issues-shield]: <https://img.shields.io/github/issues/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (Issues)
+[license-shield]: <https://img.shields.io/github/license/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (License)
+
+[logo-img]: <./Images/logo512.png> (Logo)
+
 <br/>
 
-# <p align="center">[Add PATH in Windows v1.0 by SotGE][home-url]</p>
+##### <p align="center">[![Logo][logo-img]][home-url]</p>
+
+##### <p align="center">![logo-img](./Images/logo512.png)</p>
+
+<p align="center">
+    <a href="https://github.com/SotGE/Add-PATH-in-Windows">
+        <img src="Images/logo512.png" alt="Logo" width="80" height="80" />
+    </a>
+</p>
+
+<br/>
+
+# <p align="center">[{{ title }}][home-url]</p>
 
 ##### <p align="center">[![Contributors][contributors-shield]][contributors-url] &nbsp; [![Forks][forks-shield]][forks-url] &nbsp; [![Stargazers][stars-shield]][stars-url] &nbsp; [![Issues][issues-shield]][issues-url] &nbsp; [![License][license-shield]][license-url]</p>
+
+<br/>
+
+### <p align="center"><strong>[README Russian »][readme-ru]</strong></p>
 
 <br/>
 
@@ -217,7 +255,7 @@ Windows
 
 Read below to learn how you can take part in improving project
 
-For more information, see [code of conduct](./CODE_OF_CONDUCT.md)
+For more information, see [code of conduct][code-of-conduct-url]
 
 Thank you, [contributors][contributors-url]!
 
@@ -227,7 +265,7 @@ Thank you, [contributors][contributors-url]!
 
 Project code is available under the Apache License 2.0
 
-For more information, see [license agreement](./LICENSE)
+For more information, see [license agreement][license-url]
 
 <br/>
 
@@ -250,16 +288,3 @@ Telegram: [@SotGE](https://t.me/sotge)
 ##### <p align="center">[Contributors][contributors-url] &middot; [Forks][forks-url] &middot; [Stars][stars-url] &middot; [Issues][issues-url] &middot; [License][license-url]</p>
 
 <br/>
-
-[contributors-shield]: <https://img.shields.io/github/contributors/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (Contributors)
-[forks-shield]: <https://img.shields.io/github/forks/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (Forks)
-[stars-shield]: <https://img.shields.io/github/stars/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (Stars)
-[issues-shield]: <https://img.shields.io/github/issues/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (Issues)
-[license-shield]: <https://img.shields.io/github/license/SotGE/Add-PATH-in-Windows.svg?style=flat-square> (License)
-
-[home-url]: <https://github.com/SotGE/Add-PATH-in-Windows> (Home)
-[contributors-url]: <https://github.com/SotGE/Add-PATH-in-Windows/graphs/contributors> (Contributors)
-[forks-url]: <https://github.com/SotGE/Add-PATH-in-Windows/network/members> (Forks)
-[stars-url]: <https://github.com/SotGE/Add-PATH-in-Windows/stargazers> (Stars)
-[issues-url]: <https://github.com/SotGE/Add-PATH-in-Windows/issues> (Issues)
-[license-url]: <https://github.com/SotGE/Add-PATH-in-Windows/blob/master/LICENSE> (License)
