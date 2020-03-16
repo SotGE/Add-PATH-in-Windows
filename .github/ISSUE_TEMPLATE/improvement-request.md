@@ -7,4 +7,4 @@ assignees: SotGE
 
 ---
 
-** Describe your idea of the improvement **
+**Describe your idea of the improvement**
