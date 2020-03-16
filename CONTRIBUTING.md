@@ -3,9 +3,9 @@
 👍🎉 First off, thanks for taking the time to contribute! 🎉👍
 
 ## Did you find a bug
-*   Ensure the bug was not already reported by searching on GitHub under [Issues](https://github.com/romankh3/Add-PATH-in-Windows/issues).
+*   Ensure the bug was not already reported by searching on GitHub under [Issues](https://github.com/SotGE/Add-PATH-in-Windows/issues).
 
-*   If you're unable to find an open issue addressing the problem, open a [new one](https://github.com/romankh3/Add-PATH-in-Windows/issues/new/choose). 
+*   If you're unable to find an open issue addressing the problem, open a [new one](https://github.com/SotGE/Add-PATH-in-Windows/issues/new/choose). 
     Be sure to include a title and clear description, as much relevant information as possible, 
     and a code sample or an executable test case demonstrating the expected behavior that is not occurring.
     
