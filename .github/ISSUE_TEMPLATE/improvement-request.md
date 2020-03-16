@@ -8,4 +8,3 @@ assignees: SotGE
 ---
 
 ** Describe your idea of the improvement **
-
