@@ -1,8 +1,8 @@
 ---
 name: Improvement request
 about: Suggest an improvment for this project
-title: "[IMPROVEMENT]"
-labels: enhancement
+title: '[IMPROVEMENT]'
+labels: 'good first issue'
 assignees: SotGE
 
 ---
